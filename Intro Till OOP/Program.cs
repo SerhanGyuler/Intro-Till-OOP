@@ -12,7 +12,7 @@
             Circle circle6 = new Circle(6);
             double area6 = circle6.GetArea();
             double roundValue6 = Math.Round(area6, 2);
-            Console.WriteLine($"Area of the Circle with the radius value of 5 is: {roundValue6}");
+            Console.WriteLine($"Area of the Circle with the radius value of 6 is: {roundValue6}");
 
         }
 
