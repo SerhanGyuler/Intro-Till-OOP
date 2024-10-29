@@ -15,22 +15,5 @@
             Console.WriteLine($"Area of the Circle with the radius value of 6 is: {roundValue6}");
 
         }
-
-        public class Circle
-        {
-
-            private double radius;
-
-            public Circle(double radius)
-            {
-                this.radius = radius;
-            }
-
-            public double GetArea()
-            {
-                return radius * radius * Math.PI;
-            }
-
-        }
     }
 }
